@@ -1,3 +1,4 @@
+// Import the model
 const Todo = require("../models/Todo");
 
 // Define route handler
