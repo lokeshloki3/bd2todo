@@ -4,7 +4,7 @@ const Todo = require("../models/Todo");
 // Define route handler
 exports.createTodo = async (req, res) => {
   try {
-    // Extract title and description from request body
+    // Extract title and description from request body due to express.json middleware
     const { title, description } = req.body;
 
     // Create a todo object and insert it into DataBase
